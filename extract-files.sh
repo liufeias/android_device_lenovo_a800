@@ -36,26 +36,26 @@ adb pull /system/vendor/lib/libsrv_um.so ../../../vendor/$MANUFACTURER/$DEVICE/p
 adb pull /system/vendor/lib/libusc.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libusc.so
 adb pull /system/vendor/lib/libwvdrm_L3.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libwvdrm_L3.so
 adb pull /system/vendor/lib/libwvm.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libwvm.so
-adb pull /system/vendor/lib/libWVStreamControlAPI_L3.so ../../../vendor/$MANUFACTURER/$DEVICE/libWVStreamControlAPI_L3.so
-adb pull /system/vendor/lib/drm/libdrmwvmplugin.so ../../../vendor/$MANUFACTURER/$DEVICE/libdrmwvmplugin.so
-adb pull /system/vendor/lib/egl/libEGL_mtk.so ../../../vendor/$MANUFACTURER/$DEVICE/libEGL_mtk.so
-adb pull /system/vendor/lib/egl/libGLESv1_CM_mtk.so ../../../vendor/$MANUFACTURER/$DEVICE/libGLESv1_CM_mtk.so
-adb pull /system/vendor/lib/egl/libGLESv2_mtk.so ../../../vendor/$MANUFACTURER/$DEVICE/libGLESv2_mtk.so
-adb pull /system/vendor/lib/hw/gralloc.mt6577.so ../../../vendor/$MANUFACTURER/$DEVICE/gralloc.mt6577.so
-adb pull /system/etc/firmware/modem.img ../../../vendor/$MANUFACTURER/$DEVICE/firmware/modem.img
-adb pull /system/etc/firmware/mt6628_fm_rom.bin ../../../vendor/$MANUFACTURER/$DEVICE/firmware/mt6628_fm_rom.bin
-adb pull /system/etc/firmware/mt6628_fm_v1_coeff.bin ../../../vendor/$MANUFACTURER/$DEVICE/firmware/mt6628_fm_v1_coeff.bin
-adb pull /system/etc/firmware/mt6628_fm_v1_patch.bin ../../../vendor/$MANUFACTURER/$DEVICE/firmware/mt6628_fm_v1_patch.bin
-adb pull /system/etc/firmware/mt6628_fm_v2_coeff.bin ../../../vendor/$MANUFACTURER/$DEVICE/firmware/mt6628_fm_v2_coeff.bin
-adb pull /system/etc/firmware/mt6628_fm_v2_patch.bin ../../../vendor/$MANUFACTURER/$DEVICE/firmware/mt6628_fm_v2_patch.bin
-adb pull /system/etc/firmware/mt6628_fm_v3_coeff.bin ../../../vendor/$MANUFACTURER/$DEVICE/firmware/mt6628_fm_v3_coeff.bin
-adb pull /system/etc/firmware/mt6628_fm_v3_patch.bin ../../../vendor/$MANUFACTURER/$DEVICE/firmware/mt6628_fm_v3_patch.bin
-adb pull /system/etc/firmware/mt6628_fm_v4_coeff.bin ../../../vendor/$MANUFACTURER/$DEVICE/firmware/mt6628_fm_v4_coeff.bin
-adb pull /system/etc/firmware/mt6628_fm_v4_patch.bin ../../../vendor/$MANUFACTURER/$DEVICE/firmware/mt6628_fm_v4_patch.bin
-adb pull /system/etc/firmware/mt6628_fm_v5_coeff.bin ../../../vendor/$MANUFACTURER/$DEVICE/firmware/mt6628_fm_v5_coeff.bin
-adb pull /system/etc/firmware/mt6628_fm_v5_patch.bin ../../../vendor/$MANUFACTURER/$DEVICE/firmware/mt6628_fm_v5_patch.bin
-adb pull /system/etc/firmware/mt6628_patch_e1_hdr.bin ../../../vendor/$MANUFACTURER/$DEVICE/firmware/mt6628_patch_e1_hdr.bin
-adb pull /system/etc/firmware/mt6628_patch_e2_hdr.bin ../../../vendor/$MANUFACTURER/$DEVICE/firmware/mt6628_patch_e2_hdr.bin
+adb pull /system/vendor/lib/libWVStreamControlAPI_L3.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libWVStreamControlAPI_L3.so
+adb pull /system/vendor/lib/drm/libdrmwvmplugin.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libdrmwvmplugin.so
+adb pull /system/vendor/lib/egl/libEGL_mtk.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libEGL_mtk.so
+adb pull /system/vendor/lib/egl/libGLESv1_CM_mtk.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libGLESv1_CM_mtk.so
+adb pull /system/vendor/lib/egl/libGLESv2_mtk.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libGLESv2_mtk.so
+adb pull /system/vendor/lib/hw/gralloc.mt6577.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/gralloc.mt6577.so
+adb pull /system/etc/firmware/modem.img ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/firmware/modem.img
+adb pull /system/etc/firmware/mt6628_fm_rom.bin ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/firmware/mt6628_fm_rom.bin
+adb pull /system/etc/firmware/mt6628_fm_v1_coeff.bin ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/firmware/mt6628_fm_v1_coeff.bin
+adb pull /system/etc/firmware/mt6628_fm_v1_patch.bin ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/firmware/mt6628_fm_v1_patch.bin
+adb pull /system/etc/firmware/mt6628_fm_v2_coeff.bin ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/firmware/mt6628_fm_v2_coeff.bin
+adb pull /system/etc/firmware/mt6628_fm_v2_patch.bin ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/firmware/mt6628_fm_v2_patch.bin
+adb pull /system/etc/firmware/mt6628_fm_v3_coeff.bin ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/firmware/mt6628_fm_v3_coeff.bin
+adb pull /system/etc/firmware/mt6628_fm_v3_patch.bin ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/firmware/mt6628_fm_v3_patch.bin
+adb pull /system/etc/firmware/mt6628_fm_v4_coeff.bin ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/firmware/mt6628_fm_v4_coeff.bin
+adb pull /system/etc/firmware/mt6628_fm_v4_patch.bin ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/firmware/mt6628_fm_v4_patch.bin
+adb pull /system/etc/firmware/mt6628_fm_v5_coeff.bin ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/firmware/mt6628_fm_v5_coeff.bin
+adb pull /system/etc/firmware/mt6628_fm_v5_patch.bin ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/firmware/mt6628_fm_v5_patch.bin
+adb pull /system/etc/firmware/mt6628_patch_e1_hdr.bin ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/firmware/mt6628_patch_e1_hdr.bin
+adb pull /system/etc/firmware/mt6628_patch_e2_hdr.bin ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/firmware/mt6628_patch_e2_hdr.bin
 
 (cat << EOF) | sed s/__DEVICE__/$DEVICE/g | sed s/__MANUFACTURER__/$MANUFACTURER/g > ../../../vendor/$MANUFACTURER/$DEVICE/device-vendor-blobs.mk
 # Copyright (C) 2010 The Android Open Source Project
@@ -77,11 +77,12 @@ adb pull /system/etc/firmware/mt6628_patch_e2_hdr.bin ../../../vendor/$MANUFACTU
 # Prebuilt libraries that are needed to build open-source libraries
 
 # All the blobs necessary for a800
+PRODUCT_COPY_FILES := \\
+    vendor/lenovo/a800/proprietary/pvrsrvinit:system/bin/pvrsrvinit 
 PRODUCT_COPY_FILES += \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/pvrsrvinit:system/bin/pvrsrvinit \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/pvrsrvctl:system/bin/pvrsrvctl \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/rc.fac:system/bin/rc.fac \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libBLPP.so.so:system/lib/libBLPP.so \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libBLPP.so:system/lib/libBLPP.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libglslcompiler.so:system/lib/libglslcompiler.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libIMGegl.so:system/lib/libIMGegl.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libpvr2d.so:system/lib/libpvr2d.so \\
@@ -112,7 +113,7 @@ PRODUCT_COPY_FILES += \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/firmware/mt6628_fm_v4_patch.bin:system/etc/firmware/mt6628_fm_v4_patch.bin \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/firmware/mt6628_fm_v5_patch.bin:system/etc/firmware/mt6628_fm_v5_patch.bin \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/firmware/mt6628_patch_e1_hdr.bin:system/etc/firmware/mt6628_patch_e1_hdr.bin \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/firmware/mt6628_patch_e2_hdr.bin:system/etc/firmware/mt6628_patch_e2_hdr.bin \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/firmware/mt6628_patch_e2_hdr.bin:system/etc/firmware/mt6628_patch_e2_hdr.bin 
 
 EOF
 
